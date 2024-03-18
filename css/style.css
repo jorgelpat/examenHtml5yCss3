@@ -1,0 +1,52 @@
+/* .navigation{
+    
+} */
+
+*{
+ box-sizing: border-box;   
+}
+
+body{
+    width: 100svw;
+    /* height: 2000px; */
+    background: gray;
+}
+
+
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+    gap: 40px;
+    list-style: none;
+}
+
+.content{
+    height: 4000px;
+    width: 1800px;
+    background: black;
+}
+
+section div{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: black solid;
+}
+
+section img{
+    width: 400px;
+}
+
+.img2{
+    width: 200px;
+    height: 200px;
+}
+
+.content{
+    display: flex;   
+}
+
