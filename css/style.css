@@ -52,7 +52,7 @@ section img{
 
 .content1{
     display: flex;   
-    width: 900px;
+    width: 100vw;
     height: 900px;
 }
 .content1 .big_img {
@@ -62,6 +62,27 @@ section img{
     justify-content: center;
     background: #fff;
     border: black solid;
+}
+
+.estrellitas img{
+    height: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info p{
+    font-size: 1.5em;
+}
+
+.info b{
+    font-size: 4.5em;
+}
+
+.info {
+    width: 10%;
 }
 
 /* .content1 .big_img {
@@ -81,3 +102,18 @@ section img{
     width: 900px;
     height: 900px;
 } */
+
+.content2{
+    display: flex;   
+    width: 900px;
+    height: 900px;
+}
+
+.content2 .big_img {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    border: black solid;
+}
